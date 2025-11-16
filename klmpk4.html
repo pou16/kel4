@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="klmpk4.css">
+</head>
+<body>
+    
+    <h3>DATA SISWA</h3>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Cari Nama">
+    <button>Cari</button>
+    <button onclick="hitungRataRata()">Hitung Rata-rata</button>
+
+<h3>TAMBAH DATA</h3>
+<div class="form-container">
+    <input type="text" id="nama" placeholder="Nama">
+    <input type="text" id="kelas" placeholder="Kelas">
+    <input type="number" id="nilai" placeholder="Nilai">
+    <button onclick="tambahData()">Tambah</button>
+</div>
+
+<p id="pesan" style="color:red; display:none;">Data tidak ditemukan</p>
+
+<table id="myTable">
+  <tr class="header">
+    <th>nama</th>
+    <th>kelas</th>
+    <th>nilai </th>
+    <th>predikat</th>
+    <th>keterangan</th>
+     
+  </tr>
+  <tr>
+    <td>Kahfi Rahmatullah</td>
+    <td>XI PPLG 2</td>
+    <td>100</td>
+    <td>A</td>
+    <td>Lulus</td>
+    </tr>
+  <tr>
+    <td>M. Nabil Ibrahim</td>
+    <td>XI PPLG 2</td>
+    <td>95</td>
+    <td>A</td>
+    <td>Lulus</td>
+  </tr>
+  
+  <tr>
+    <td>Arvin Ferdian</td>
+    <td>XI PPLG 2</td>
+    <td>90</td>
+    <td>A</td>
+    <td>Lulus</td>
+  <tr>
+    <td>Topik Hermawan</td>
+    <td>XI PPLG 2</td>
+    <td>85</td>
+    <td>B</td>
+    <td>Lulus</td>
+<tr>
+    <td>Gio Maulana</td>
+    <td>XI PPLG 2</td>
+    <td>80</td>
+    <td>B</td>
+    <td>Lulus</td>
+  </tr>
+  <tr>
+    <td>Alifa Aprilyanti W</td>
+    <td>XI PPLG 2</td>
+    <td>10</td>
+    <td>D</td>
+    <td>Tidak lulus</td>
+  </tr>
+</table>
+<script src="klmpk4.js"></script>
+</body>
+</html>
