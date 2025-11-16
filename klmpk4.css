@@ -13,22 +13,6 @@ h2{
   margin-bottom: 10px;
 }
 
-.form-container {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-}
-
-.form-container input {
-  padding: 8px;
-  margin-right: 5px;
-}
-
-.form-container button {
-  padding: 8px 12px;
-}
-
 #myTable {
   border-collapse: collapse;
   width: 90%;
@@ -47,4 +31,5 @@ h2{
 
 #myTable tr.header, #myTable tr:hover {
   background-color: #303036;
+
 }
